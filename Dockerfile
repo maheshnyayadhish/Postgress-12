@@ -1,7 +1,6 @@
-# example Dockerfile for https://docs.docker.com/engine/examples/postgresql_service/
+ FROM ubuntu:16.04
  
- 
-FROM ubuntu:16.04
+ MAINTAINER Mahesh Nyayadhish <mahesh.nyayadhish@taashee.com>
  
 # Add the PostgreSQL PGP key to verify their Debian packages.
 
