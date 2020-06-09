@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: postgresql
+  labels:
+    run: postgresql
+spec:
+  ports:
+  - port: 5432
+    protocol: TCP
+  selector:
+    run: postgresql
